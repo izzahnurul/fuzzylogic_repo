@@ -15,4 +15,4 @@ Data consists of 13 columns, with 1 target feature (risk_flag)
  * Imbalanced data on the risk_flag feature is handled with the SMOTE technique.
 
 ### Modelling and Evaluating
-Model is evaluated on the basis of recall and AUC score, while considering the execution time. Therefore, the best suitable model is Decision Tree with **recall = 0.831** and  **AUC = 0.873** (after hypertuning).
+Model is evaluated on the basis of recall and AUC score, while considering the execution time. Therefore, the best suitable model is **Decision Tree** with **recall = 0.831** and  **AUC = 0.873** (after hypertuning).
